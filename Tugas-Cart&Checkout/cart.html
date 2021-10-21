@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+</head>
+
+<body style="font-family:Bahnschrift;">
+    <header style="margin-left: 1cm;">
+        <h1>Keranjang Pembelian</h1>
+        <div style="font-size: 20px;">
+            <nav >
+                    <a href="/Beranda"> Beranda </a> &nbsp; &nbsp;
+                    <a href="/Pencarian"> Pencarian </a> &nbsp; &nbsp;
+                    <a href="Akun Anda"> Akun Anda </a>
+            </nav>
+        </div>
+    </header>
+    <hr style="height: 3px; border-width: 0px;color:orange; background-color: orange;">
+    <section style="margin-left: 1cm;">
+    <h2>Keranjang Anda</h2>
+    <fieldset>
+    <table style="width: 1000px; background-color: orange; border-width: 1px;border-color: black;border-style: solid;" >
+        <thead style="font-size: 20px;">
+            <tr style="text-align: left;">
+            <th style="width: 10cm;border-width: 1px;border-color: black;border-style: solid;padding: 5px">Barang </th>
+            <th style="border-width: 1px;border-color: black;border-style: solid;padding: 5px">Harga</th>
+            <th style="border-width: 1px;border-color: black;border-style: solid;padding: 5px">Jumlah</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="font-size: 18px;">
+            <td style="border-width: 1px;border-color: black;border-style: solid;padding: 5px"><img src="images/kaos.png" style="float: left;" alt="Kaos" width="87" height="115"> 
+                 <br> &nbsp; &nbsp; T-Shirt Bring Me The Horizon <br>
+                    <span style="font-size: 16px;"> <i> &nbsp; &nbsp; BMTH distro.id</i></span>
+            </td>
+            <td style="vertical-align: text-top;border-width: 1px;border-color: black;border-style: solid;padding: 5px"> <br> RP. 90.000 <br> (<i> Ongkir RP.13.000 JNE Reguler ke seluruh Indonesia</i> ) &nbsp; &nbsp; &nbsp; </td>
+            <td style="vertical-align: text-top;border-width: 1px;border-color: black;border-style: solid;padding: 5px" > <label> <br> Jumlah <input type="number" name="Jumlah" min="1" max="10"> </label> </td>
+            </tr>
+            <td style="border-width: 1px;border-color: black;border-style: solid;padding: 5px"></td>
+            <td style="border-width: 1px;border-color: black;border-style: solid;padding: 5px"></td>
+            <td style="width: 200px;border-width: 1px;border-color: black;border-style: solid;padding: 5px"> <b>Subtotal</b> : RP. 103.000 </td>
+        </tbody>
+    </table>
+    <h3 style="font-size: 20px;">Total</h3>
+        <table style="background-color: orange; border-width: 1px;border-color: black;border-style: solid;">
+            <tbody>
+                <tr>
+                    <td style=" border-width: 1px;border-color: black;border-style: solid;padding: 5px">T-Shirt Bring Me The Horizon</td>
+                    <td style=" border-width: 1px;border-color: black;border-style: solid;padding: 5px">Rp. 90.000</td>
+                </tr>
+                <tr>
+                    <td style=" border-width: 1px;border-color: black;border-style: solid;padding: 5px">Ongkir</td>
+                    <td style=" border-width: 1px;border-color: black;border-style: solid;padding: 5px">Rp. 13.000</td>
+                </tr>
+                <tr>
+                    <td style=" border-width: 1px;border-color: black;border-style: solid;padding: 5px">Biaya Admin</td>
+                    <td style=" border-width: 1px;border-color: black;border-style: solid;padding: 5px">Rp. 2.500</td>
+                </tr>
+                <tr>
+                    <td style=" border-width: 1px;border-color: black;border-style: solid;padding: 5px"></td>
+                    <td style=" border-width: 1px;border-color: black;border-style: solid;padding: 5px"> <b>Rp. 105.500</b> </td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>  
+
+    </section>
+    <section style="margin-left: 1cm;">
+        <br>
+    <input type="submit" value="Bayar">
+    </section>
+    <footer style="position: fixed;left: 0;bottom: 0;width: 100%;background-color: orange;text-align: center;font-size: 20px;">
+        Copyright BMTH distro.id, 2015. All Rights Preserved
+    </footer>
+</body>
+</html>
