@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"name": "Tugas-CV",
+			"path": "Tugas-CV"
+		},
+		{
+			"name": "Tugas-Cart&Checkout",
+			"path": "Tugas-Cart&Checkout"
+		},
+		{
+			"name": "Tugas-FormPizza",
+			"path": "Tugas-FormPizza"
+		},
+		{
+			"name": "Tugas-Layout",
+			"path": "Tugas-Layout"
+		},
+		{
+			"path": "Tugas-PesanBarang"
+		}
+	],
+	"settings": {}
+}
