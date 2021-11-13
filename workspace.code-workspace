@@ -18,6 +18,9 @@
 		},
 		{
 			"path": "Tugas-PesanBarang"
+		},
+		{
+			"path": "Tugas-Box"
 		}
 	],
 	"settings": {}
