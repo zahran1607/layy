@@ -21,6 +21,9 @@
 		},
 		{
 			"path": "Tugas-Box"
+		},
+		{
+			"path": "Tugas-FlexBox"
 		}
 	],
 	"settings": {}

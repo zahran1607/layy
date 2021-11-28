@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 6.1</title>
+    <style>
+        header {
+            text-align: center;
+            margin :1cm;
+            font-family: Bahnschrift;
+        }
+        .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        .column {
+            flex : 32%; 
+            max-width: 32%;
+            padding: 5px;
+            box-sizing: border-box;
+            border-style: solid;
+            border-color: black;
+            border-width: 2px;
+            margin: 10px;
+        }
+        .column2 {
+            flex : 18.65%; 
+            max-width: 18.65%;
+            padding: 5px;
+            box-sizing: border-box;
+            border-style: solid;
+            border-color: black;
+            border-width: 2px;
+            margin: 10px;
+        }
+        span {
+            font-family: Bahnschrift;
+            vertical-align: bottom;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pemain NBA Favorit</h1>
+    </header>
+    <div class="row">
+        <div class="column">
+            <img src="images/kd.jpg" alt="Kevin Durant" style="width: 100%;">
+            <span>Kevin Durant</span>
+        </div>
+        <div class="column">
+            <img src="images/kobe.jpg" alt="Kobe Bryant" style="width: 100%;">
+            <span>Kobe Bryant</span>
+        </div>
+        <div class="column">
+            <img src="images/steph.jpg" alt="Stephen Curry" style="width: 100%;">
+            <span>Stephen Curry</span>
+        </div>
+        <div class="column2">
+            <img src="images/ad.jpg" alt="Anthony Davis" style="width: 100%;">
+            <span>Anthony Davis</span>
+        </div>
+        <div class="column2">
+            <img src="images/russ.jpg" alt="Russel Westbrook" style="width: 100%;">
+            <span>Russel Westbrook</span>
+        </div>
+        <div class="column2">
+            <img src="images/dame.jpg" alt="Damian Lillard" style="width: 100%;">
+            <span>Damian Lillard</span>
+        </div>
+        <div class="column2">
+            <img src="images/kyrie.jpg" alt="Kyrie Irving" style="width: 100%;">
+            <span>Kyrie Irving</span>
+        </div>
+        <div class="column2">
+            <img src="images/ja.jpg" alt="Ja Morant" style="width: 100%;">
+            <span>Ja Morant</span>
+        </div>
+    </div>
+</body>
+</html>
