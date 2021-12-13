@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum JavaScript 1 - Lingkaran</title>
+
+    <script>
+        function hitung(){
+            const phi = 3.14;
+            let jari2 = document.getElementById("bil1").value;
+            let luas = phi * jari2 * jari2;
+            let kel = 2.0 * phi * jari2;
+            let area_hasil = document.getElementById("hasil");
+            area_hasil.innerHTML = "\nLuas : " + luas + "\nkeliling : " + kel
+        }
+    </script>
+</head>
+<body>
+    <h3>Menghitung Luas & Keliling Lingkaran</h3>
+    Jari - Jari :
+    <input type="number" value="" size="10" id="bil1"/>
+    <br><br>
+    <button onclick="hitung()">Hitung</button>
+    <br><br> Hasil :<br>
+    <br>
+    <span id="hasil">Luas & keliling :</span>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+       <head>
+       <title>Praktikum JavaScript 1 - Kurs Rupiah</title>
+              <script>
+                     function kursrp(usd){
+                     var datausd = parseInt(usd);
+                     document.getElementById("hasilkonversi").innerHTML = datausd*14650;
+                     }
+              </script>
+             
+       </head>
+       <body>
+              <br/><br/><br/>
+              Konversi Kurs Indonesia (1 USD = Rp.14.650)
+              <br/><br><br>
+              Masukkan USD: <input type="text" name="usd" onchange="kursrp(this.value)">
+              <br/><br><br>
+              Hasil : Rp. <span id="hasilkonversi">......</span>
+       
+       </body>
+</html>

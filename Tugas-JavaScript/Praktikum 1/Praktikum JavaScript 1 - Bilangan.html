@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum JavaScript 1 - Bilangan</title>
+<style>
+    input{
+        height: 35px;
+        width: 8em;
+        padding-left: 80px;
+    }
+    #hasil{
+        height: 30px;
+        width: 50px;
+        padding-left: 0em;
+    }
+    .simbol{
+        margin-left: 81px;
+        font-size: 40px;
+    }
+</style>
+    <script>
+        function hitung(){
+            let x = Number(document.getElementById("bil1").value);
+            let y = Number(document.getElementById("bil2").value);
+            let z = x + y;
+            document.getElementById("bil3").value=z;
+        }
+    </script>
+</head>
+<body>
+    <h3>Menghitung Penjumlahan</h3>
+<form id="frm1">
+    <input type="number" id="bil1"/><br>
+    <b class="simbol">+</b><br>
+    <input type="number" id="bil2"/><br><br>
+    <input type="button" value="=" onclick="hitung()" id="hasil"><br><br>
+    <input type="number" id="bil3"/>
+</form>
+
+</body>
+</html>
