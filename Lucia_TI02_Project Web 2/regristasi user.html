@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/sweetalert2.css">
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Registrasi User</title>
+</head>
+<body>
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-primary">
+        <div class="container-fluid">
+            <div class="d-flex align-items-center justify-content-between ">
+                <img src="assets/img/logo.png" alt="logo">
+                <a class="navbar-brand d-none d-lg-block" href="#">SIPAK STT-NF</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                <a class="nav-link acttive" href="#">Home <b>|</b></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Berita <b>|</b></a> 
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#"> Registrasi Kegiatan <b>|</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Login</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+      </nav>
+      <hr>
+<!-- End Navbar -->
+
+<section class="section register d-flex flex-column align-items-center justify-content-center py-4">
+  <br>
+  <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
+          <div class="d-flex justify-content-center py-4">
+            <div class="d-flex align-items-center w-auto">
+              <span class="h2 d-none d-lg-block">Registrasi User</span>
+            </div>
+          </div>
+
+<!--Form Register-->
+<div class="card">
+  <div class="card-body">
+<form>
+  <div class="form-group row">
+    <label for="text" class="col-5 col-form-label">Cari Sivitas Akademika</label> 
+    <div class="col-7">
+      <div class="input-group">
+        <div class="input-group-prepend">
+        </div> 
+        <input id="text" name="text" placeholder="🔍search" type="text" class="form-control">
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="text1" class="col-5 col-form-label">Nama Lengkap</label> 
+    <div class="col-7">
+      <div class="input-group">
+        <div class="input-group-prepend">
+        </div> 
+        <input id="text1" name="text1" placeholder="Mahasiswa/Dosen" type="text" class="form-control">
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <div class="form-group row">
+    <label for="text2" class="col-5 col-form-label">Asal Prodi</label> 
+    <div class="col-7">
+      <div class="input-group">
+        <div class="input-group-prepend">
+        </div> 
+        <input id="text2" name="text2" placeholder="TI/SI" type="text" class="form-control">
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <div class="form-group row">
+    <label for="text3" class="col-5 col-form-label">Username</label> 
+    <div class="col-7">
+      <input id="text3" name="text3" type="text" class="form-control">
+    </div>
+  </div>
+
+  <br>
+  <div class="form-group row">
+    <label for="text4" class="col-5 col-form-label">Password</label> 
+    <div class="col-7">
+      <input id="text4" name="text4" type="text" class="form-control">
+    </div>
+  </div>
+
+  <br>
+  <div class="form-group row">
+    <label for="text5" class="col-5 col-form-label">Cek Password</label> 
+    <div class="col-7">
+      <input id="text5" name="text5" type="text" class="form-control">
+    </div>
+  </div>
+  
+  <br>
+  <div class="col-12">
+  <div class="form-group row">
+    <div id="liveAlertPlaceholder"></div>
+    <button class="btn btn-primary" type="button" id="liveAlertBtn" onclick="jalankanAlert2()">Daftar</button>
+  </div>
+  </div>
+
+</form>
+
+</div>
+</div>
+<!--End Form Register-->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/regristasi.js"></script>
+  <script src="assets/js/sweetalert2.all.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
